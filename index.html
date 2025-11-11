@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git - mod</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+    k
+  </head>
+  <body>
+    <div class="header-container">
+      <header>
+        <div class="logo">
+          <img src="./images/git logo.png" alt="Logo" />
+          <span class="logo-title">--everything-is-local</span>
+        </div>
+        <nav>
+          <form class="search-box">
+            <input type="text" placeholder="Type / to search entire site…" />
+          </form>
+        </nav>
+        <button class="color-mode">
+          <img src="./images/dark-mode.svg" alt="Dark Mode" />
+        </button>
+      </header>
+    </div>
+
+    <!-- hero area here  -->
+    <div class="hero-container">
+      <div class="hero-area inner">
+        <div class="hero-text">
+          <p>
+            Git is a
+            <a href="/about/#free-and-open-source">free and open source</a>
+            distributed version control system designed to handle everything
+            from small to very large projects with speed and efficiency.
+          </p>
+          <p>
+            Git is <a href="/about">lightning fast</a> and has a huge ecosystem
+            of <a href="/tools/guis">GUIs</a>,
+            <a href="/tools/hosting">hosting services</a>, and
+            <a href="/tools/command-line">command-line tools</a>.
+          </p>
+        </div>
+        <div class="hero-banner">
+          <img
+            src="./images/branching-illustration@2x.png"
+            width="389"
+            height="251"
+            alt="Banner Image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <main class="inner">
+        <div class="front-navigation">
+          <div class="navigation">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./images/icon/fa-gears.svg" width="38" alt="Icon" />
+                  <span>
+                    <h2>About</h2>
+                    <p>Git's performance and ecosystem</p>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="./images/icon/fa-lightbulb.svg"
+                    width="38"
+                    alt="Icon"
+                  />
+                  <span>
+                    <h2>Learn</h2>
+                    <p>Pro Git book, videos, tutorials, and cheat sheet</p>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="./images/icon/fa-screwdriver-wrench.svg"
+                    width="38"
+                    alt="Icon"
+                  />
+                  <span>
+                    <h2>Tools</h2>
+                    <p>Command line tools, GUIs, and hosting services</p>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="./images/icon/fa-book-open.svg"
+                    width="38"
+                    alt="Icon"
+                  />
+                  <span>
+                    <h2>Reference</h2>
+                    <p>Git's reference documentation</p>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="./images/icon/fa-down-long.svg"
+                    width="38"
+                    alt="Icon"
+                  />
+                  <span>
+                    <h2>Install</h2>
+                    <p>Binary releases for all major platforms.</p>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/icon/fa-gears.svg" width="38" alt="Icon" />
+                  <span>
+                    <h2>Community</h2>
+                    <p>
+                      Get involved! Bug reporting, mailing list, chat,
+                      development and more.
+                    </p>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <div class="extra-navigation">
+              <img
+                src="./images/progit2.png"
+                alt="Img"
+                width="56"
+                height="74"
+              />
+              <p>
+                <strong><a href="/book">Pro Git</a></strong>
+                by Scott Chacon and Ben Straub is available to
+                <a href="/book">read online for free</a>. Dead tree versions are
+                available on
+                <a
+                  href="https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1430218339&amp;linkCode=as2&amp;tag=git-sfconservancy-20"
+                  >Amazon.com</a
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-navigation">
+          <div class="monitor windows">
+            <h4>Latest source Release</h4>
+
+            <span class="version"> 2.51.2 </span>
+
+            <a
+              href="https://github.com/git/git/raw/HEAD/Documentation/RelNotes/2.51.2.adoc"
+              >Release Notes</a
+            >
+            <span class="release-date"> (2025-10-27) </span>
+            <span data-win="2.51.2" id="installer-version"></span>
+
+            <a href="/install/windows" class="button" id="download-link"
+              >Download for Windows</a
+            >
+          </div>
+          <table>
+            <tr>
+              <td nowrap="true">
+                <a
+                  href="/downloads/guis?os=windows"
+                  class="icon gui"
+                  id="gui-link"
+                  >Windows GUIs</a
+                >
+              </td>
+              <td nowrap="true">
+                <a
+                  href="https://www.kernel.org/pub/software/scm/git/"
+                  class="icon older-releases"
+                  >Tarballs</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td nowrap="true">
+                <a href="/install/mac" class="icon mac" id="alt-link"
+                  >Mac Build</a
+                >
+              </td>
+              <td nowrap="true">
+                <a href="https://github.com/git/git" class="icon source"
+                  >Source Code</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+      </main>
+      <div class="footer-container">
+        <footer class="inner">
+          <div class="site-source">
+            <a href="/">About this site</a><br />
+            <p>Patches, suggestions, and comments are welcome.</p>
+          </div>
+          <div class="sfc-member">
+            <p>
+              Git is a member of <a href="/">Software Freedom Conservancy</a>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
